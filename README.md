@@ -1,4 +1,4 @@
-# Module 3. JS Core. Lesson 8. Test 1.
+# Module 3. JS Core. Lesson 8. Test 3.
 
 # String split Method &amp; length Property. Counting the number of the "html" word in the text.
 
