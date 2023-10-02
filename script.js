@@ -5,7 +5,8 @@ const countWord = (str) => {
 
   let count = 0, i = 0;
   for (i; i < arrayOfWords.length; i++) {
-     if (arrayOfWords[i] == 'html') {
+    //  if (arrayOfWords[i] == 'html') {
+     if (arrayOfWords.at(i) == 'html') {
       count++;
     }
   }
