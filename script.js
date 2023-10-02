@@ -1,10 +1,11 @@
-let userInputText = prompt('Input your text:');
+const userInputText = prompt('Input your text:');
 
 const countWord = (str) => {
   const arrayOfWords = str.split(' ');
 
-  let count = 0, i = 0;
-  for (i; i < arrayOfWords.length; i++) {
+  let count = 0;
+  
+  for (let i= 0; i < arrayOfWords.length; i++) {
     //  if (arrayOfWords[i] == 'html') {
      if (arrayOfWords.at(i) == 'html') {
       count++;
